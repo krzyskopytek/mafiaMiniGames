@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Player.h"
 
 @interface ViewController : UIViewController
 
+@property (strong,nonatomic) Player *player;
+@property (weak, nonatomic) IBOutlet UITextField *playerNameTextField;
+@property int numberOfMafia;
+@property int numberOfCitizens;
 
 @end
 

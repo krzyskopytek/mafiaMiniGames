@@ -15,6 +15,8 @@
 		40FF2A9D1CE3B78F00D4C026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FF2A9B1CE3B78F00D4C026 /* LaunchScreen.storyboard */; };
 		40FF2AA81CE3B78F00D4C026 /* mafiaMiniGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF2AA71CE3B78F00D4C026 /* mafiaMiniGamesTests.m */; };
 		40FF2AB31CE3B78F00D4C026 /* mafiaMiniGamesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF2AB21CE3B78F00D4C026 /* mafiaMiniGamesUITests.m */; };
+		40FF2B091CE3CDBD00D4C026 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FF2B081CE3CDBD00D4C026 /* Player.m */; };
+		40FF2B0B1CE3D98000D4C026 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40FF2B0A1CE3D98000D4C026 /* win.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		40FF2AAE1CE3B78F00D4C026 /* mafiaMiniGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mafiaMiniGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FF2AB21CE3B78F00D4C026 /* mafiaMiniGamesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mafiaMiniGamesUITests.m; sourceTree = "<group>"; };
 		40FF2AB41CE3B78F00D4C026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FF2B071CE3CDBD00D4C026 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		40FF2B081CE3CDBD00D4C026 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		40FF2B0A1CE3D98000D4C026 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = "../../../../../Downloads/1823-Short_triumphal_fanfare-John_Stracke-815794903/mp3/win.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				40FF2A931CE3B78F00D4C026 /* ViewController.h */,
 				40FF2A941CE3B78F00D4C026 /* ViewController.m */,
 				40FF2A961CE3B78F00D4C026 /* Main.storyboard */,
+				40FF2B071CE3CDBD00D4C026 /* Player.h */,
+				40FF2B081CE3CDBD00D4C026 /* Player.m */,
+				40FF2B0A1CE3D98000D4C026 /* win.mp3 */,
 				40FF2A991CE3B78F00D4C026 /* Assets.xcassets */,
 				40FF2A9B1CE3B78F00D4C026 /* LaunchScreen.storyboard */,
 				40FF2A9E1CE3B78F00D4C026 /* Info.plist */,
@@ -245,6 +253,7 @@
 			files = (
 				40FF2A9D1CE3B78F00D4C026 /* LaunchScreen.storyboard in Resources */,
 				40FF2A9A1CE3B78F00D4C026 /* Assets.xcassets in Resources */,
+				40FF2B0B1CE3D98000D4C026 /* win.mp3 in Resources */,
 				40FF2A981CE3B78F00D4C026 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FF2B091CE3CDBD00D4C026 /* Player.m in Sources */,
 				40FF2A951CE3B78F00D4C026 /* ViewController.m in Sources */,
 				40FF2A921CE3B78F00D4C026 /* AppDelegate.m in Sources */,
 				40FF2A8F1CE3B78F00D4C026 /* main.m in Sources */,
@@ -496,6 +506,7 @@
 				40FF2AB91CE3B78F00D4C026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40FF2ABA1CE3B78F00D4C026 /* Build configuration list for PBXNativeTarget "mafiaMiniGamesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				40FF2ABC1CE3B78F00D4C026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40FF2ABD1CE3B78F00D4C026 /* Build configuration list for PBXNativeTarget "mafiaMiniGamesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				40FF2ABF1CE3B78F00D4C026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
